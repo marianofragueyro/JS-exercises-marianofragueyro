@@ -7,22 +7,22 @@ for(i = 0; i < students.length ;i++){
 //5.B
 
 for(i = 0; i < students.length ;i++){
-    students[i] = students[i].charAt(0).toUpperCase() + students[i].slice(1)
-//    alert(students[i])
+    students[i] = students[i].charAt(0).toUpperCase() + students[i].slice(1);
+//    alert(students[i]);
 }
 
 //5.C
 
-var sentence = ''
+var sentence = '';
 for(i = 0; i<students.length;i++){
-    sentence = students[i]
-    console.log(sentence)
-}
+    sentence = students[i];
+    console.log(sentence);
+};
 
 //5.D.
 
-var emptyArray = []
+var emptyArray = [];
 for(i=0; i < 10 ;i++){
-    emptyArray = i
-    console.log(emptyArray)
-}
+    emptyArray = i;
+    console.log(emptyArray);
+};
